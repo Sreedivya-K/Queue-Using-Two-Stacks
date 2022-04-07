@@ -18,6 +18,10 @@ class Queue {
 
     // Push element x to the back of queue.
     public void enqueue(int x) {
+        if (stack1.empty()) firstElement = x ; 
+        
+        stack1.push(x);
+
 
     }
 
